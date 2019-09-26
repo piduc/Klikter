@@ -1,0 +1,100 @@
+.odobravanjenaloga{
+	padding-top: 2rem;
+	margin-top: 2rem;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.65);
+	border-radius: 0.7rem;
+	border: 2px solid black;
+}
+
+.odobravanjenaloga div {
+	margin-bottom: 10px;
+}
+
+.infon{
+	margin-left: 5%;
+}
+
+.odobravanjenaloga span{
+	color: #008000;
+}
+
+.btns{	
+    text-align: center;
+	margin-top: 2rem !important;
+	margin-bottom: 2rem !important;
+}
+.btn{
+	padding: 0.5rem;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    border-radius: .5rem;
+	color: white;
+	cursor: pointer;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+.ta{
+	margin-top: 4rem;
+	text-align: center;
+}
+textarea{
+	resize: none;
+	width: 90%;
+	height: 100px;
+	padding: 0.5rem;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid black;
+    border-radius: .25rem;
+	color: black;
+}
+
+.odobravanjenaloga input{
+	width: 70%;
+	margin-bottom: 1rem;
+	padding: 0.2rem;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    text-align: left;
+    border: 2px solid #008000;
+	background-color: white;
+    border-radius: .25rem;
+	color: black;
+}
+
+.prihvati{
+	background-color: #008000;
+	margin-left: 3rem;
+}
+
+.bz{
+	background-color: #008000;
+	margin-left: 3rem;
+}
+
+.odbij{
+	background-color: red;
+	margin-right: 3rem;
+}
+
+.linkzp{
+	text-decoration: none;
+	color: #008000;
+	cursor: pointer;
+	text-shadow: 0 1px red;
+}
+
+
+.bodovanjeimg {
+    height: 33px;
+}

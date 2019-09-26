@@ -1,0 +1,39 @@
+.invited{
+	padding: 2rem;
+	margin-top: 2rem;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.65);
+	border-radius: 0.7rem;
+	border: 2px solid black;
+	border-radius: 0.7rem;
+}
+
+.invited h2{
+	color: #008000;
+}
+
+
+.invited span{
+	vertical-align: center;
+	text-align: center;
+
+}
+
+.invited p{
+		margin: 8px;
+}
+
+.reflink{
+	width: 50%;
+	color: black;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	padding: 0.5rem;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 2px solid #008000;
+    border-radius: .3rem;
+}

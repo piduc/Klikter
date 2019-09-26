@@ -1,0 +1,197 @@
+.msggg{
+	padding-bottom: 8rem;
+}
+
+.levi{
+	display: none;
+}
+.desni{
+	display: none;
+}
+
+.zadatak{
+	display: inline-block;
+	margin-top: 2rem;
+	padding-bottom: 0.5rem;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	color: black !important;
+	background-color: rgba(255, 255, 255, 0.65);
+	border-radius: 0.7rem;
+	border: 2px solid black;
+	margin-right: 1rem;
+	height: 400px;
+	width: 100%;
+	
+}
+
+.ozadatak{
+	color: #008000; 
+	font-weight: 700;
+	text-align: center;
+	height: 13%;
+}
+.bodovanjeimg{
+	margin-top: 5px;
+	height: 100%;
+}
+
+.linkzad{
+	width: 100%;
+	height: 74%;
+	object-fit: cover;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.zadatak select{
+	max-width: 100px;
+	min-height: 34px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    text-align: center;
+	float: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0.5rem;
+    border: 2px solid transparent;
+	background-color: #008000;
+    border-radius: .25rem;
+	color: white;
+	cursor: pointer;
+}
+.zadatak button{
+	width: 159px;
+	max-height: 34px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    text-align: center;
+	float: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	overflow: hidden;
+	margin: 0.5rem;
+    border: 2px solid transparent;
+	background-color: #008000;
+    border-radius: .25rem;
+	color: white;
+	cursor: pointer;
+}
+
+.container-fluid{
+	padding: 0 !important;
+}
+
+@media (max-width: 922px){
+.zadatak button{
+	width: 200px;
+}.zadatak select{
+	width: 200px;
+}}
+
+@media (max-width: 650px){
+.zadatak button{
+	width: 180px;
+}}
+
+@media (max-width: 450px){
+.zadatak select{
+	width: 150px;
+}}
+
+@media (max-width: 350px){
+.zadatak button{
+	width: 80px;
+}.zadatak select{
+	width: 100px;
+}}
+
+@media (max-width: 300px){
+.zadatak button{
+	width: 80px;
+}.zadatak select{
+	width: 80px;
+}}
+
+
+	
+@media (min-width: 500px){
+.levi {
+    display: block;
+}}
+@media (min-width: 500px){
+.desni{
+	display: block;
+}}
+
+@media (min-width: 1360px){
+.levi {
+    display: block;
+}}
+@media (min-width: 1360px){
+.desni{
+	display: inline-block;
+}}
+
+@media (min-width: 922px){
+.col-md-6 {
+    width: 50%;
+}}
+@media (min-width: 922px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}}
+@media (min-width: 1360px){
+.col-lg-4 {
+    width: 33.33333333%;
+}}
+@media (min-width: 1360px){
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: left;
+}}
+
+
+@media (max-width: 950px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}

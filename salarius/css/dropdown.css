@@ -1,0 +1,158 @@
+.navbar{
+	border-radius: 0;
+}
+
+.navbar-brand{
+	line-height: 1.42857143;
+	margin-top: -1px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin: 0;
+	margin-left: 20px;
+}
+
+.navbar-nav>li>a{
+	line-height: 1.42857143;
+}
+
+.dropdown-toggle>img {
+    vertical-align: baseline;
+}
+
+.dropbtn{
+	display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+	border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdownr {
+	float: right;
+    position: relative;
+    display: inline-block;
+	margin-right: 15vw;
+}
+
+.content {
+	border:1px solid black;
+}
+.dropdown-content {
+	float: left;
+    display: none;
+    position: absolute;
+    background-color: #282828;
+    min-width: 227px;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.dropdown-content a {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 18px;
+	color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #3c3c3c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownr:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3c3c3c;
+}
+
+.dropdownr:hover .dropbtn {
+    background-color: #3c3c3c;
+}
+
+
+.icon-home{
+	background-image: url('icon-home.png');
+}
+
+
+
+.dropdown-toggle{
+	display: inline-block;
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+	border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdownr {
+	float: right;
+    position: relative;
+    display: inline-block;
+	margin-right: 15vw;
+}
+
+.content {
+	border:1px solid black;
+}
+.dropdown-menu {
+	float: left;
+    display: none;
+    position: absolute;
+    background-color: #282828;
+    min-width: 227px;
+    z-index: 1;
+    border: 1px solid black;
+	padding: 0 ;
+}
+
+.dropdown-menu a {
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-size: 18px;
+	color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+.icon-home{
+	background-image: url('icon-home.png');
+}
+
+.dropdown-menu>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}

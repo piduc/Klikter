@@ -1,0 +1,81 @@
+.tus{
+	width: 100%;
+	border: 2px solid #008000;
+	border-radius: 1rem;
+	background-color: rgb(51, 51, 51);
+	display: inline-block;
+	padding: 2px;
+	background-color: rgba(255, 255, 255, 0.65);
+	color: #008000;
+	margin-bottom: 0;
+}
+
+.tus p{
+	margin: 0px 6px;
+}
+
+.col-lg-4{
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 5px;
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+}
+
+.col-md-4{
+	background-color: rgba(0, 0, 0, 0.45);
+	padding: 5px;
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+} 
+
+.darken{
+	background-color: rgba(0, 0, 0, 0.45);
+	padding: 5px;
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+}
+
+
+.breaker{
+	width: 93%;
+	border-top: 1px dashed #008000;
+	margin: 3rem 0 ;
+	position: relative;
+}
+
+.btn {
+    background-color: #008000;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    border-radius: .5rem;
+    color: white;
+    cursor: pointer;
+	font-size: 20px;
+	width: 100%;
+}
+
+.btnr {
+    background-color: #cc0e0e;
+}
+
+.startinfo{
+	width:100%;
+	border-radius: 0.6rem;
+}
+
+@media (min-width: 1200px){
+.col-lg-4 {
+    width: 30%;
+}}
+
+@media (min-width: 992px){
+.col-md-4 {
+    width: 30%;
+}}

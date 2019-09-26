@@ -1,0 +1,13 @@
+.transakcije{
+	background-color: rgba(0, 0, 0, 0.45);
+	table-layout: fixed;
+}
+
+.infot{
+	display: inline-block;
+	background-color: rgba(255,255,255,0.65);
+	border: 1px solid black;
+	margin: 2px;
+	border-radius: 0.75rem;
+	padding-top: 0.75rem;
+}
